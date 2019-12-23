@@ -60,7 +60,7 @@ typings/
 .env
 
 # IDE
-.idea/*
+.idea/
 *.iml
 *.sublime-*
 
