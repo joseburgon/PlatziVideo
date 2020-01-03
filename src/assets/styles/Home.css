@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .footer {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background: linear-gradient(#21C08B, #8F57FD) fixed;
+}
+
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=Home.css.map */

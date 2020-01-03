@@ -40,10 +40,13 @@ module.exports = {
           {
             loader: 'file-loader',
             options: { name: 'assets/[hash].[ext]' },
-          }
+          },
         ],
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
