@@ -82,7 +82,6 @@
     ],
     "indent": [
       2,
-      2,
       {
         "SwitchCase": 1
       }
@@ -261,7 +260,6 @@
       "never"
     ],
     "react/jsx-indent-props": [
-      2,
       2
     ],
     "react/jsx-no-bind": [
