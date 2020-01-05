@@ -37,6 +37,11 @@ const reducer = (state, action) => {
         || state.originals.find(item => item.id === Number(action.payload))
         || []
       }
+    case 'SET_SEARCH_TEXT':
+      return {
+        ...state,
+        searchText: action.payload
+      }
     default:
       return state;
   }
